@@ -1,16 +1,31 @@
-#Title {
-    border-bottom: 1px solid LightGrey;
-    border-top: 1px solid LightGrey;
-    color: DarkGrey;
-    text-align:center;
-    font-size: 14px;
-    font-weight: 200;
-    text-align: center;
-  }
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
 
-  .top {
-    margin: 0 auto;
-    padding: 40px;
-    text-align: center;
-    width: 400px;
-  }
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.name-section {
+  width: 100%;
+}
+
+.name-section h1 {
+  color: #333;
+  font-size: 24px;
+}
+
+.section {
+  width: 48%;
+  margin-bottom:
