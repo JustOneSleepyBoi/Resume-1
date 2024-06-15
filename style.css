@@ -1,6 +1,6 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
   margin: 0;
   padding: 0;
 }
@@ -28,4 +28,27 @@ body {
 
 .section {
   width: 48%;
-  margin-bottom:
+  margin-bottom: 20px;
+}
+
+.section.skills,
+.section.education,
+.section.contacts,
+.section.references {
+  color: #8b4513; /* Light brown color */
+}
+
+.section.about,
+.section.certificates,
+.section.work,
+.section.achievements {
+  color: #654321; /* Darker brown color */
+}
+
+.references {
+  align-self: flex-start;
+}
+
+.achievements {
+  width: 100%;
+}
